@@ -2,7 +2,7 @@ package org.etsntesla.it.spring;
 
 import org.springframework.stereotype.Component;
 
-@Component
+
 public class DatabaseConfiguration {
 
     private String url;
