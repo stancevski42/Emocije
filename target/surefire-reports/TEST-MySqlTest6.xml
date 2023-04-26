@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MySqlTest6" time="3.495" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\4-2\StancevskiLuka\Emocije\target\test-classes;D:\4-2\StancevskiLuka\Emocije\target\classes;C:\Users\Korisnik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Korisnik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Korisnik\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Korisnik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Korisnik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Korisnik\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Korisnik\.m2\repository\org\etsntesla\it\RunShellCommand\1.0-SNAPSHOT\RunShellCommand-1.0-SNAPSHOT.jar;C:\Users\Korisnik\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\Korisnik\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\flywaydb\flyway-core\9.8.1\flyway-core-9.8.1.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-toml\2.14.0\jackson-dataformat-toml-2.14.0.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Korisnik\.m2\repository\org\flywaydb\flyway-mysql\9.8.1\flyway-mysql-9.8.1.jar;C:\Users\Korisnik\.m2\repository\org\hibernate\orm\hibernate-core\6.1.5.Final\hibernate-core-6.1.5.Final.jar;C:\Users\Korisnik\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.0.0\jakarta.persistence-api-3.0.0.jar;C:\Users\Korisnik\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.0\jakarta.transaction-api-2.0.0.jar;C:\Users\Korisnik\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\Korisnik\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.2.Final\hibernate-commons-annotations-6.0.2.Final.jar;C:\Users\Korisnik\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Korisnik\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Korisnik\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\Korisnik\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\Korisnik\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\Korisnik\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\Korisnik\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\Korisnik\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\Korisnik\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\Korisnik\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Budapest"/>
+    <property name="user.country.format" value="RS"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Korisnik\.jdks\openjdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\Korisnik\AppData\Local\Temp\surefire14519763135134738060\surefirebooter-20230306151647253_3.jar C:\Users\Korisnik\AppData\Local\Temp\surefire14519763135134738060 2023-03-06T15-16-46_537-jvmRun1 surefire-20230306151647253_1tmp surefire_0-20230306151647253_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\4-2\StancevskiLuka\Emocije\target\test-classes;D:\4-2\StancevskiLuka\Emocije\target\classes;C:\Users\Korisnik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\Korisnik\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Korisnik\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\Korisnik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Korisnik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\Korisnik\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\Korisnik\.m2\repository\org\etsntesla\it\RunShellCommand\1.0-SNAPSHOT\RunShellCommand-1.0-SNAPSHOT.jar;C:\Users\Korisnik\.m2\repository\com\mysql\mysql-connector-j\8.0.31\mysql-connector-j-8.0.31.jar;C:\Users\Korisnik\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-context\5.3.23\spring-context-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-aop\5.3.23\spring-aop-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-beans\5.3.23\spring-beans-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-core\5.3.23\spring-core-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-jcl\5.3.23\spring-jcl-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\springframework\spring-expression\5.3.23\spring-expression-5.3.23.jar;C:\Users\Korisnik\.m2\repository\org\flywaydb\flyway-core\9.8.1\flyway-core-9.8.1.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-toml\2.14.0\jackson-dataformat-toml-2.14.0.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\Korisnik\.m2\repository\org\flywaydb\flyway-mysql\9.8.1\flyway-mysql-9.8.1.jar;C:\Users\Korisnik\.m2\repository\org\hibernate\orm\hibernate-core\6.1.5.Final\hibernate-core-6.1.5.Final.jar;C:\Users\Korisnik\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.0.0\jakarta.persistence-api-3.0.0.jar;C:\Users\Korisnik\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.0\jakarta.transaction-api-2.0.0.jar;C:\Users\Korisnik\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar;C:\Users\Korisnik\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.2.Final\hibernate-commons-annotations-6.0.2.Final.jar;C:\Users\Korisnik\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar;C:\Users\Korisnik\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Korisnik\.m2\repository\net\bytebuddy\byte-buddy\1.12.18\byte-buddy-1.12.18.jar;C:\Users\Korisnik\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\3.0.1\jakarta.xml.bind-api-3.0.1.jar;C:\Users\Korisnik\.m2\repository\com\sun\activation\jakarta.activation\2.0.1\jakarta.activation-2.0.1.jar;C:\Users\Korisnik\.m2\repository\org\glassfish\jaxb\jaxb-runtime\3.0.2\jaxb-runtime-3.0.2.jar;C:\Users\Korisnik\.m2\repository\org\glassfish\jaxb\jaxb-core\3.0.2\jaxb-core-3.0.2.jar;C:\Users\Korisnik\.m2\repository\org\glassfish\jaxb\txw2\3.0.2\txw2-3.0.2.jar;C:\Users\Korisnik\.m2\repository\com\sun\istack\istack-commons-runtime\4.0.1\istack-commons-runtime-4.0.1.jar;C:\Users\Korisnik\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\Korisnik\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Korisnik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-09-20"/>
+    <property name="java.home" value="C:\Users\Korisnik\.jdks\openjdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\4-2\StancevskiLuka\Emocije"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Korisnik\AppData\Local\Temp\surefire14519763135134738060\surefirebooter-20230306151647253_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="user.script.format" value="Cyrl"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19+36-2238"/>
+    <property name="user.name" value="Korisnik"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Korisnik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Korisnik\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.2"/>
+    <property name="java.version" value="19"/>
+    <property name="user.dir" value="D:\4-2\StancevskiLuka\Emocije"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="sr"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Korisnik\.jdks\openjdk-19\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Inprise\vbroker\bin;C:\Program Files (x86)\Borland\Delphi7\Bin;C:\Program Files (x86)\Borland\Delphi7\Projects\Bpl\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\xampp\mysql\bin;C:\Users\Korisnik\AppData\Local\Microsoft\WindowsApps;;C:\Users\Korisnik\AppData\Local\Programs\Microsoft VS Code\bin;C:\TDM-GCC-32\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19+36-2238"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="test1" classname="MySqlTest6" time="0.138">
+    <system-out><![CDATA[#########################################
+#                TEST1          #
+
+Hibernate: select e1_0.Id,e1_0.Poruka,e1_0.Vrsta_emocije from emocije e1_0 where e1_0.Id=?
+]]></system-out>
+    <system-err><![CDATA[мар 06, 2023 3:16:48 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 6.1.5.Final
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using built-in connection pool (not intended for production use)
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/db_emocije_ls]
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=root}
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH10001115: Connection pool size: 20 (min=1)
+мар 06, 2023 3:16:49 PM org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl logSelectedDialect
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+мар 06, 2023 3:16:50 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Flyway Community Edition 9.8.1 by Redgate
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#9.8.1
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: 
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Database: jdbc:mysql://localhost:3306/db_emocije_ls (MySQL 5.5)
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully dropped pre-schema database level objects (execution time 00:00.001s)
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully cleaned schema `db_emocije_ls` (execution time 00:00.080s)
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully cleaned schema `db_emocije_ls` (execution time 00:00.028s)
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully dropped post-schema database level objects (execution time 00:00.000s)
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Creating Schema History table `db_emocije_ls`.`flyway_schema_history` with baseline ...
+мар 06, 2023 3:16:50 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully baselined schema with version: 1
+мар 06, 2023 3:16:51 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully validated 3 migrations (execution time 00:00.018s)
+мар 06, 2023 3:16:51 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Current version of schema `db_emocije_ls`: 1
+мар 06, 2023 3:16:51 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Migrating schema `db_emocije_ls` to version "01.001 - emocije drop dump"
+мар 06, 2023 3:16:51 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Migrating schema `db_emocije_ls` to version "01.002 - emocije data dump"
+мар 06, 2023 3:16:51 PM org.flywaydb.core.internal.logging.apachecommons.ApacheCommonsLog info
+INFO: Successfully applied 2 migrations to schema `db_emocije_ls`, now at version v01.002 (execution time 00:00.173s)
+]]></system-err>
+  </testcase>
+  <testcase name="test2" classname="MySqlTest6" time="0.255">
+    <system-out><![CDATA[#########################################
+#                TEST2          #
+
+Hibernate: insert into emocije (Poruka, Vrsta_emocije) values (?, ?)
+Hibernate: select e1_0.Id,e1_0.Poruka,e1_0.Vrsta_emocije from emocije e1_0
+###############################Id=1#################################
+    Vrsta_emocije=Radost
+    Poruka=Prije nego što krenete tražiti sreću, provjerite - možda ste već sretni.
+Sreća je mala, obična i neupadljiva, i mnogi ju ne znaju vidjeti.
+
+Duško Radović
+###############################Id=2#################################
+    Vrsta_emocije=Ljutnja
+    Poruka=Ljutnja je – stanje duše. U suštini, mi sami donosimo odluku da li ćemo biti ljuti. I kad, sledeći put rešite da se naljutite, razmislite: da li je to zaista tako lepo sebe sažaljevati? Predator uvek oseća slabijeg, i napada baš njega. Ne kaže se džaba u narodu: „Pusti je kraju“! Pustite ljutnju, nek ide svojim putem!
+###############################Id=3#################################
+    Vrsta_emocije=Tuga
+    Poruka=Tuga se naginje jače ako primijeti da mu podlegnu. 
+
+William Shakespeare
+###############################Id=4#################################
+    Vrsta_emocije=Strah
+    Poruka=Moj strah je taj koji mi daje hrabrost. 
+
+Bob Marli
+###############################Id=5#################################
+    Vrsta_emocije=Ljubav
+    Poruka=Samo se srcem može zaista gledati. Ono što je suštinski važno, nevidljivo je oku. – 
+
+Antoan de Sent Egziperi
+###############################Id=6#################################
+    Vrsta_emocije=Nada
+    Poruka=Cvet nade cveta i u najdubljoj tamnici.
+Kineske poslovice
+###############################Id=7#################################
+    Vrsta_emocije=Zavist
+    Poruka=Ako u srcu imate gorku zavist i svadljivost, ne uznosite se i ne lažite protiv istine! Nije to mudrost koja odozgor silazi, nego zemaljska, ljudska, đavolska. Ta gdje je zavist i svadljivost, ondje je nered i svako zlo djelo.  – Jakov 3,14-15
+8;Ljubomora;U ljubomori ima više ljubavi prema sebi nego ljubavi.
+Francois de La Rochefoucauld
+###############################Id=9#################################
+    Vrsta_emocije=Ponos
+    Poruka= "Isti ponos koji čini da se čovjek ponaša bahato prema podređenima, čini da se ponaša pokorno onima iznad njega. Takva je sama priroda ovog poroka, koji nije baziran na osobnoj zasluzi ni na vrlini, nego na bogatstvu, funkciji, utjecaju, beskorisnom znanju, da tjera čovjeka da bude ohol prema onima ispod njega kao i da precjenjuje one koji su iznad njega.
+###############################Id=10#################################
+    Vrsta_emocije=Smirenost
+    Poruka="Pomiri se sam sa sobom i s' tobom ce se pomiriti nebo i zemlja.
+-Sveti Isak Sirin"
+###############################Id=11#################################
+    Vrsta_emocije=Radost
+    Poruka=Bogatim te čini, ne bogatstvo, nego radost.
+]]></system-out>
+  </testcase>
+  <testcase name="test3" classname="MySqlTest6" time="0.03">
+    <system-out><![CDATA[#########################################
+#                TEST3          #
+
+Hibernate: select e1_0.Id,e1_0.Poruka,e1_0.Vrsta_emocije from emocije e1_0 where e1_0.Id=?
+Hibernate: select e1_0.Id,e1_0.Poruka,e1_0.Vrsta_emocije from emocije e1_0
+###############################Id=1#################################
+    Vrsta_emocije=Radost
+    Poruka=Prije nego što krenete tražiti sreću, provjerite - možda ste već sretni.
+Sreća je mala, obična i neupadljiva, i mnogi ju ne znaju vidjeti.
+
+Duško Radović
+###############################Id=2#################################
+    Vrsta_emocije=Ljutnja
+    Poruka=Ljutnja je – stanje duše. U suštini, mi sami donosimo odluku da li ćemo biti ljuti. I kad, sledeći put rešite da se naljutite, razmislite: da li je to zaista tako lepo sebe sažaljevati? Predator uvek oseća slabijeg, i napada baš njega. Ne kaže se džaba u narodu: „Pusti je kraju“! Pustite ljutnju, nek ide svojim putem!
+###############################Id=3#################################
+    Vrsta_emocije=Tuga
+    Poruka=Tuga se naginje jače ako primijeti da mu podlegnu. 
+
+William Shakespeare
+###############################Id=4#################################
+    Vrsta_emocije=Strah
+    Poruka=Moj strah je taj koji mi daje hrabrost. 
+
+Bob Marli
+###############################Id=5#################################
+    Vrsta_emocije=Ljubav
+    Poruka=Samo se srcem može zaista gledati. Ono što je suštinski važno, nevidljivo je oku. – 
+
+Antoan de Sent Egziperi
+###############################Id=6#################################
+    Vrsta_emocije=Nada
+    Poruka=Cvet nade cveta i u najdubljoj tamnici.
+Kineske poslovice
+###############################Id=7#################################
+    Vrsta_emocije=Zavist
+    Poruka=Ako u srcu imate gorku zavist i svadljivost, ne uznosite se i ne lažite protiv istine! Nije to mudrost koja odozgor silazi, nego zemaljska, ljudska, đavolska. Ta gdje je zavist i svadljivost, ondje je nered i svako zlo djelo.  – Jakov 3,14-15
+8;Ljubomora;U ljubomori ima više ljubavi prema sebi nego ljubavi.
+Francois de La Rochefoucauld
+###############################Id=9#################################
+    Vrsta_emocije=Ponos
+    Poruka= "Isti ponos koji čini da se čovjek ponaša bahato prema podređenima, čini da se ponaša pokorno onima iznad njega. Takva je sama priroda ovog poroka, koji nije baziran na osobnoj zasluzi ni na vrlini, nego na bogatstvu, funkciji, utjecaju, beskorisnom znanju, da tjera čovjeka da bude ohol prema onima ispod njega kao i da precjenjuje one koji su iznad njega.
+###############################Id=10#################################
+    Vrsta_emocije=Smirenost
+    Poruka="Pomiri se sam sa sobom i s' tobom ce se pomiriti nebo i zemlja.
+-Sveti Isak Sirin"
+###############################Id=11#################################
+    Vrsta_emocije=Radost
+    Poruka=Bogatim te čini, ne bogatstvo, nego radost.
+]]></system-out>
+  </testcase>
+  <testcase name="test4" classname="MySqlTest6" time="0.037">
+    <system-out><![CDATA[#########################################
+#                TEST4          #
+
+Hibernate: delete from emocije where Id=?
+Hibernate: select e1_0.Id,e1_0.Poruka,e1_0.Vrsta_emocije from emocije e1_0
+###############################Id=1#################################
+    Vrsta_emocije=Radost
+    Poruka=Prije nego što krenete tražiti sreću, provjerite - možda ste već sretni.
+Sreća je mala, obična i neupadljiva, i mnogi ju ne znaju vidjeti.
+
+Duško Radović
+###############################Id=2#################################
+    Vrsta_emocije=Ljutnja
+    Poruka=Ljutnja je – stanje duše. U suštini, mi sami donosimo odluku da li ćemo biti ljuti. I kad, sledeći put rešite da se naljutite, razmislite: da li je to zaista tako lepo sebe sažaljevati? Predator uvek oseća slabijeg, i napada baš njega. Ne kaže se džaba u narodu: „Pusti je kraju“! Pustite ljutnju, nek ide svojim putem!
+###############################Id=3#################################
+    Vrsta_emocije=Tuga
+    Poruka=Tuga se naginje jače ako primijeti da mu podlegnu. 
+
+William Shakespeare
+###############################Id=5#################################
+    Vrsta_emocije=Ljubav
+    Poruka=Samo se srcem može zaista gledati. Ono što je suštinski važno, nevidljivo je oku. – 
+
+Antoan de Sent Egziperi
+###############################Id=6#################################
+    Vrsta_emocije=Nada
+    Poruka=Cvet nade cveta i u najdubljoj tamnici.
+Kineske poslovice
+###############################Id=7#################################
+    Vrsta_emocije=Zavist
+    Poruka=Ako u srcu imate gorku zavist i svadljivost, ne uznosite se i ne lažite protiv istine! Nije to mudrost koja odozgor silazi, nego zemaljska, ljudska, đavolska. Ta gdje je zavist i svadljivost, ondje je nered i svako zlo djelo.  – Jakov 3,14-15
+8;Ljubomora;U ljubomori ima više ljubavi prema sebi nego ljubavi.
+Francois de La Rochefoucauld
+###############################Id=9#################################
+    Vrsta_emocije=Ponos
+    Poruka= "Isti ponos koji čini da se čovjek ponaša bahato prema podređenima, čini da se ponaša pokorno onima iznad njega. Takva je sama priroda ovog poroka, koji nije baziran na osobnoj zasluzi ni na vrlini, nego na bogatstvu, funkciji, utjecaju, beskorisnom znanju, da tjera čovjeka da bude ohol prema onima ispod njega kao i da precjenjuje one koji su iznad njega.
+###############################Id=10#################################
+    Vrsta_emocije=Smirenost
+    Poruka="Pomiri se sam sa sobom i s' tobom ce se pomiriti nebo i zemlja.
+-Sveti Isak Sirin"
+###############################Id=11#################################
+    Vrsta_emocije=Radost
+    Poruka=Bogatim te čini, ne bogatstvo, nego radost.
+]]></system-out>
+  </testcase>
+</testsuite>

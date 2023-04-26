@@ -1,0 +1,11 @@
+org\etsntesla\it\VrstaEmocije.class
+org\etsntesla\it\Emocije.class
+org\etsntesla\it\Main.class
+org\etsntesla\it\spring\MySqlManagerBean.class
+org\etsntesla\it\spring\BeanFactory.class
+org\etsntesla\it\spring\DatabaseConfiguration.class
+org\etsntesla\it\spring\EmocijeManager.class
+org\etsntesla\it\BaseRepository.class
+org\etsntesla\it\MySqlManager.class
+org\etsntesla\it\EmocijeRepository.class
+org\etsntesla\it\spring\FlywayManager.class
